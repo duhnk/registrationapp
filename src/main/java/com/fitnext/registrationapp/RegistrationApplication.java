@@ -22,9 +22,8 @@ public class RegistrationApplication extends Application {
         stage.setScene(scene);
         stage.show();
 
-        // Load the FXML file
-        // Parent root = FXMLLoader.load(getClass().getResource("registration-view.fxml"));
-        // Scene scene = new Scene(root, 520, 600);
+
+
     }
 
     public static void main(String[] args) {

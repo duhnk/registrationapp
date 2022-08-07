@@ -110,7 +110,7 @@
             <Cursor fx:constant="DEFAULT" />
          </cursor>
       </TextField>
-      <TextField fx:id="addressText" layoutX="170.0" layoutY="337.0" prefHeight="30.0" prefWidth="350.0" promptText="User Adddress">
+      <TextField fx:id="usernameText" layoutX="170.0" layoutY="337.0" prefHeight="30.0" prefWidth="350.0" promptText="User Adddress">
          <font>
             <Font size="14.0" />
          </font>

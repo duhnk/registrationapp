@@ -3,16 +3,13 @@
 <?import javafx.scene.Cursor?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
-<?import javafx.scene.paint.Color?>
-<?import javafx.scene.paint.LinearGradient?>
-<?import javafx.scene.paint.Stop?>
 <?import javafx.scene.text.Font?>
 
-<?import javafx.scene.control.PasswordField?>
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="520.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.fitnext.registrationapp.RegistrationController">
    <children>
       <ImageView fx:id="imageTest" fitHeight="600.0" fitWidth="1220.0" pickOnBounds="true" preserveRatio="true">
@@ -21,26 +18,10 @@
          </image>
       </ImageView>
       <Button fx:id="btnRegister" layoutX="170.0" layoutY="556.0" mnemonicParsing="false" onAction="#register" prefWidth="110.0" text="Registration" />
-      <Label alignment="TOP_CENTER" contentDisplay="CENTER" prefHeight="82.0" prefWidth="520.0" style="-fx-background-color: #8fbc8f;" text="Registration">
+      <Label alignment="TOP_CENTER" contentDisplay="CENTER" prefHeight="82.0" prefWidth="520.0" style="-fx-background-color: #8fbc8f;" text="Registration" textFill="#fff1f1">
          <font>
             <Font name="Comic Sans MS" size="24.0" />
-         </font>
-         <textFill>
-            <LinearGradient endX="1.0" endY="1.0">
-               <stops>
-                  <Stop>
-                     <color>
-                        <Color red="0.1242000013589859" green="0.15003253519535065" blue="0.5400000214576721" />
-                     </color>
-                  </Stop>
-                  <Stop offset="1.0">
-                     <color>
-                        <Color red="1.0" green="1.0" blue="1.0" />
-                     </color>
-                  </Stop>
-               </stops>
-            </LinearGradient>
-         </textFill></Label>
+         </font></Label>
       <ImageView fitHeight="64.0" fitWidth="64.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="file:src/main/java/com/fitnext/registrationapp/assests/log-in.png" />
@@ -110,7 +91,7 @@
             <Cursor fx:constant="DEFAULT" />
          </cursor>
       </TextField>
-      <TextField fx:id="usernameText" layoutX="170.0" layoutY="337.0" prefHeight="30.0" prefWidth="350.0" promptText="User Adddress">
+      <TextField fx:id="usernameText" layoutX="170.0" layoutY="337.0" prefHeight="30.0" prefWidth="350.0" promptText="User Name">
          <font>
             <Font size="14.0" />
          </font>

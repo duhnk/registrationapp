@@ -8,6 +8,8 @@ module com.fitnext.registrationapp {
     requires java.sql;
     requires mysql.connector.java;
     requires java.desktop;
+    requires json;
+    requires java.net.http;
 
     opens com.fitnext.registrationapp to javafx.fxml;
     exports com.fitnext.registrationapp;

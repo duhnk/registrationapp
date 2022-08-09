@@ -1,4 +1,4 @@
-package com.fitnext.registrationapp.assests;
+package com.fitnext.registrationapp;
 
 public class User {
 

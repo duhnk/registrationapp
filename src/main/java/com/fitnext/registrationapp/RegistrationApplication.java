@@ -11,16 +11,22 @@ import java.io.IOException;
 import java.net.URL;
 
 public class RegistrationApplication extends Application {
+
+    private Scene scene;
+    private Parent root;
     @Override
-    public void start(Stage stage) throws IOException {
-        FXMLLoader loader = new FXMLLoader(RegistrationApplication.class.getResource("registration-view.fxml"));
-        URL url = RegistrationApplication.class.getResource("registration-view.fxml");
-        assert url != null;
-        Parent root = FXMLLoader.load(url);
-        Scene scene = new Scene(root, 520, 600);
-        stage.setTitle("Hello!");
-        stage.setScene(scene);
-        stage.show();
+    public void start(Stage stage) {
+        try {
+             root = FXMLLoader.load(getClass().getResource("log-in.fxml"));
+
+             scene = new Scene(root, 520, 600);
+            stage.setTitle("Welcome to FitNext!");
+            stage.setScene(scene);
+            stage.show();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
 
 
 

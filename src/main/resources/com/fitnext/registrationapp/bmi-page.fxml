@@ -24,7 +24,10 @@
       <Button fx:id="results" layoutX="226.0" layoutY="354.0" mnemonicParsing="false" onAction="#getBmi" prefHeight="25.0" prefWidth="149.0" text="Calculate BMI" />
       <TextField fx:id="weightText" alignment="CENTER" layoutX="226.0" layoutY="255.0" promptText="Pounds" />
       <TextField fx:id="heightText" alignment="CENTER" layoutX="226.0" layoutY="314.0" promptText="Inches" />
-      <TextArea fx:id="bmiText" layoutX="125.0" layoutY="28.0" prefHeight="37.0" prefWidth="474.0" />
+      <TextArea fx:id="bmiText" layoutX="125.0" layoutY="28.0" prefHeight="37.0" prefWidth="204.0" promptText="Your BMI">
+         <font>
+            <Font size="14.0" />
+         </font></TextArea>
       <Button fx:id="forwardBtn" layoutX="490.0" layoutY="354.0" mnemonicParsing="false" onAction="#switchToScene1" prefHeight="25.0" prefWidth="96.0" style="-fx-background-color: #8fbc8f;" text="Forward">
          <font>
             <Font name="System Bold" size="12.0" />
@@ -35,9 +38,12 @@
             <Font name="System Bold Italic" size="12.0" />
          </font>
       </Label>
-      <Button fx:id="backBtn" layoutX="25.0" layoutY="354.0" mnemonicParsing="false" onAction="#switchToScene" prefHeight="25.0" prefWidth="96.0" text="Back" />
+      <Button fx:id="backBtn" layoutX="15.0" layoutY="326.0" mnemonicParsing="false" onAction="#switchToScene" prefHeight="56.0" prefWidth="96.0" styleClass="root" stylesheets="@../../../../java/com/fitnext/registrationapp/assests/button-image.css" text="Home" textFill="#df00ff">
+         <font>
+            <Font name="System Italic" size="24.0" />
+         </font></Button>
       <Button fx:id="bmiBtn" layoutX="70.0" layoutY="90.0" mnemonicParsing="false" onAction="#getResults" text="BMI" />
-      <TextArea fx:id="resultsTextOut" layoutX="121.0" layoutY="122.0" prefHeight="56.0" prefWidth="481.0" promptText="Your Results">
+      <TextArea fx:id="resultsTextOut" layoutX="121.0" layoutY="122.0" prefHeight="56.0" prefWidth="204.0" promptText="Your Results">
          <font>
             <Font size="18.0" />
          </font>

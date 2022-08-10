@@ -6,18 +6,24 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="resourceLabel" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" styleClass="root" stylesheets="@../../../../java/com/fitnext/registrationapp/assests/resource-image.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.fitnext.registrationapp.resourcePage">
+<AnchorPane fx:id="resourceLabel" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" styleClass="root" stylesheets="@../../../../java/com/fitnext/registrationapp/assests/resource-image.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.fitnext.registrationapp.resourcePage">
    <children>
-      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="156.0" layoutY="14.0" prefHeight="39.0" prefWidth="270.0" text="Resource Page" textAlignment="JUSTIFY">
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="254.0" layoutY="14.0" prefHeight="39.0" prefWidth="270.0" text="Resource Page" textAlignment="JUSTIFY">
          <font>
             <Font name="System Bold" size="18.0" />
          </font>
       </Label>
-      <Button fx:id="backBtn" layoutX="27.0" layoutY="355.0" mnemonicParsing="false" onAction="#switchToScene" prefHeight="25.0" prefWidth="121.0" text="Back">
+      <Button fx:id="backBtn" alignment="TOP_RIGHT" layoutX="56.0" layoutY="359.0" mnemonicParsing="false" onAction="#switchToScene" prefHeight="98.0" prefWidth="92.0" style="-fx-background-color: #;" styleClass="root" stylesheets="@../../../../java/com/fitnext/registrationapp/assests/back-button-image.css" text="Back">
          <font>
-            <Font size="14.0" />
+            <Font name="System Bold" size="14.0" />
          </font>
       </Button>
-      <TextField fx:id="linkTextField" layoutX="121.0" layoutY="160.0" prefHeight="25.0" prefWidth="364.0" text="https://www.healthline.com/nutrition/26-muscle-building-foods" />
+      <TextField fx:id="linkTextField" layoutX="215.0" layoutY="146.0" prefHeight="25.0" prefWidth="370.0" text="https://www.healthline.com/nutrition/26-muscle-building-foods" />
+      <TextField fx:id="linkTextField1" layoutX="221.0" layoutY="200.0" prefHeight="25.0" prefWidth="364.0" text="https://kidshealth.org/en/teens/dieting.html" />
+      <TextField fx:id="linkTextField2" layoutX="218.0" layoutY="244.0" prefHeight="25.0" prefWidth="364.0" text="https://www.helpguide.org/articles/diets/the-mediterranean-diet.htm" />
+      <TextField fx:id="linkTextField3" layoutX="217.0" layoutY="311.0" prefHeight="25.0" prefWidth="364.0" text="https://health.clevelandclinic.org/can-eat-still-lose-weight/" />
+      <TextField fx:id="linkTextField4" layoutX="213.0" layoutY="373.0" prefHeight="25.0" prefWidth="364.0" text="https://www.ucsfhealth.org/education/guidelines-for-losing-weight" />
+      <TextField fx:id="linkTextField5" layoutX="212.0" layoutY="421.0" prefHeight="25.0" prefWidth="364.0" text="https://familydoctor.org/what-you-should-know-before-you-start-a-weight-loss-plan/" />
+      <TextField fx:id="linkTextField5" layoutX="217.0" layoutY="471.0" prefHeight="25.0" prefWidth="357.0" text="https://www.coachmag.co.uk/nutrition/diet-plans/1173/lean-four-weeks-meal-plan" />
    </children>
 </AnchorPane>

@@ -2,6 +2,7 @@
 
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
@@ -17,5 +18,6 @@
             <Font size="14.0" />
          </font>
       </Button>
+      <TextField fx:id="linkTextField" layoutX="121.0" layoutY="160.0" prefHeight="25.0" prefWidth="364.0" text="https://www.healthline.com/nutrition/26-muscle-building-foods" />
    </children>
 </AnchorPane>

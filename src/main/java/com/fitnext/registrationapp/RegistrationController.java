@@ -21,7 +21,7 @@ import java.util.ResourceBundle;
 import java.sql.Connection;
 import java.sql.Statement;
 
-;import static com.fitnext.registrationapp.connectionDB.getConnection;
+import static com.fitnext.registrationapp.connectionDB.getConnection;
 
 
 
